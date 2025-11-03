@@ -16,6 +16,6 @@ spec:
      spec:
        containers:
        - name: companyms-container
-         image:  amarnadhdhanyasi/compnay:1
+         image:  amarnadhdhanyasi/company:1
          ports:
          - containerPort: 8080
