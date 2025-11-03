@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: companyms-deploy
+  labels:
+    app: companyms
+spec:
+  replicas: 3
+  selector:
+      matchLabels:
+         app: companyms
+  template:
+     metadata:
+       labels:
+         app: companyms
+     spec:
+       containers:
+       - name: companyms-container
+         image:  amarnadhdhanyasi/compnay:1
+         ports:
+         - containerPort: 8080
