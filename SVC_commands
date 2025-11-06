@@ -9,5 +9,5 @@ $kubectl get ep
 $kubectl describe ep hello-svc
 
 #Deployment commands
-kubectl rollout history deployments companyms-deploy
-kubectl rollout undo deployment companyms-deploy --to-revision=2
+$kubectl rollout history deployments companyms-deploy
+$kubectl rollout undo deployment companyms-deploy --to-revision=2
