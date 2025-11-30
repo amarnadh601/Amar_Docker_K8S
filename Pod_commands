@@ -1,6 +1,6 @@
 #STEPS TO CREATE PODS
 
-#Execute the following commands
+Execute the following commands
 kubectl get nodes
 kubectl create -f pod.yml
 kubectl get pods
